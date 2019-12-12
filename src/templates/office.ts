@@ -143,7 +143,7 @@ export default ({
 <body style="background-color:${color}">
   <div id="box" style="background-color:${color}">
     <span id="logo">
-      <img id="logo-img" src="${logo}" />
+      <img id="logo-img" src="data:image/gif;base64,${logo}" />
       <h6 id="logo-text">${brand}</h6>
     </span>
     <h1 id="product" class="text">${productName}</h1>
