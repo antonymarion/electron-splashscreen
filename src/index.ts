@@ -74,9 +74,8 @@ export const initSplashScreen = ({
   }
   splashScreen.show();
   const hide = () => {
-    setTimeout(() => splashScreen.destroy(), 500);
+    setTimeout(() => splashScreen.destroy(), 2500);
     mainWindow.show();
   };
-  ipcMain.on('ready', hide);
-  return hide;
+  hide();
 };
