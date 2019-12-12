@@ -1,16 +1,9 @@
-declare var _default: ({
-  logo = 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Microsoft_Office_2013_logo.svg',
-  brand = 'Brand',
-  productName = 'Product',
-  text = 'Loading ...',
-  website = 'www.website.com',
-  color = '#666'
-}: {
-    logo?: string;
-    brand?: string;
-    productName?: string;
-    text?: string;
-    website?: string;
-    color?: string;
+export declare const OfficeTemplate: ({ logo, brand, productName, text, website, color }: {
+    logo?: string | undefined;
+    brand?: string | undefined;
+    productName?: string | undefined;
+    text?: string | undefined;
+    website?: string | undefined;
+    color?: string | undefined;
 }) => string;
-export default _default;
+//# sourceMappingURL=office.d.ts.map
